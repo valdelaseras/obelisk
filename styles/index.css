@@ -1,0 +1,6 @@
+/* pedestal */
+@import '/node_modules/@valdelaseras/pedestal/styles/index.css';
+
+/* pedestal variable overrides */
+@import 'css/variable-overrides.css';
+

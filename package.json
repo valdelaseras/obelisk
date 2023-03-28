@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A component library built on top of Pedestal",
   "scripts": {
-    "serve": "http-server ."
+    "serve": "http-server .",
+    "sass-watch": "sass --watch styles/scss/variable-overrides.scss styles/css/variable-overrides.css",
+    "dev": "npm run serve & npm run sass-watch",
+    "sass-compile": "sass styles/scss/variable-overrides.scss styles/css/variable-overrides.css"
   },
   "repository": {
     "type": "git",
@@ -15,8 +18,11 @@
     "url": "https://github.com/valdelaseras/obelisk/issues"
   },
   "homepage": "https://github.com/valdelaseras/obelisk#readme",
+  "dependencies": {
+    "@valdelaseras/pedestal": "^1.0.3"
+  },
   "devDependencies": {
-    "@valdelaseras/pedestal": "^1.0.3",
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "sass": "^1.60.0"
   }
 }
