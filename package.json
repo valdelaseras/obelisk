@@ -1,0 +1,22 @@
+{
+  "name": "obelisk",
+  "version": "1.0.0",
+  "description": "A component library built on top of Pedestal",
+  "scripts": {
+    "serve": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdelaseras/obelisk.git"
+  },
+  "author": "robin@weird.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valdelaseras/obelisk/issues"
+  },
+  "homepage": "https://github.com/valdelaseras/obelisk#readme",
+  "devDependencies": {
+    "@valdelaseras/pedestal": "^1.0.3",
+    "http-server": "^14.1.1"
+  }
+}
